@@ -1,0 +1,49 @@
+body {
+     
+    margin: 0px;
+    padding: 0px;
+    background: url("img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  
+  }
+
+  .left {
+    display: inline-block;
+    color: aliceblue;
+    top: 22px;
+
+    border: 2px solid whitesmoke;
+    position: absolute;
+    left: 34px;
+  }
+  .mid {
+    color: aliceblue;
+    display: block;
+    width: 33%;
+    top: 22px;
+    border: 2px solid green;
+
+    margin: 12px auto;
+    border: 2px solid whitesmoke;
+  }
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    display: inline-block;
+    border: 2px solid red;
+    color: aliceblue;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
